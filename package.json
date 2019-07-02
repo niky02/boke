@@ -1,0 +1,15 @@
+{
+  "name": "vuetest",
+  "version": "1.0.0",
+  "description": "kownlage",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh build.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.44"
+  }
+}
